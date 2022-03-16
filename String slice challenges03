@@ -1,0 +1,5 @@
+firstname=str(input('enter your firstname in lower case'))
+lastname=str(input('enter your lastname in lower case'))
+space=' '
+concat=firstname+space+lastname
+print(concat)
