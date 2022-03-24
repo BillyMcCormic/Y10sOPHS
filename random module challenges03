@@ -1,0 +1,10 @@
+import random
+side=('h','t')
+s=random.choice(side)
+guess=str(input('heads or tails'))
+
+if guess == s:
+    print('you win')
+
+else:
+    print('bad luck',s)
