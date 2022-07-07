@@ -1,0 +1,31 @@
+def player1Game():
+    print("1 player game chosen")
+
+def player2Game():
+    print("2 player game chosen")
+
+def player3Game():
+    print("3 player game chosen")
+
+def menu():
+    print("press 1 for 1 player game")
+    print("press 2 for 2 player game")
+    print("press 3 for online")
+
+    userInput = int(input("Enter 1,2,3 or 4 >>>"))
+
+    if userInput == 1:
+        player1Game()
+    elif userInput == 2:
+        player2Game()
+    elif userInput ==3:
+        player3Input
+    else:("invalid input")
+    print()
+
+
+
+
+
+
+menu()
